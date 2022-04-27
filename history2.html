@@ -14,6 +14,12 @@
 		nav {display: flex; justify-content: center; align-items: center; border-bottom: 5px solid black; font-family: 'Gowun Batang', serif; font-weight: bold;}
 		nav p a{display: inline-block; text-decoration: none; color: black; font-size: 20px; margin-right: 13px; border-color: red;  width: 170px; text-align: center; padding-top: 5px; padding-bottom: 5px;}
 		nav img {margin-right: 13px; margin-bottom: 10px; margin-top: 25px;}
+		nav img {animation: spin 2s linear infinite;}
+		@keyframes spin  {
+			0% {transform: rotateY(0);}
+			100% {transform: rotateY(360deg);}
+		}
+		
 		nav p a:hover {
 			color: #C43132;
 			font-size: 22px;
