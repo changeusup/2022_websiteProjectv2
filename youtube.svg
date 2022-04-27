@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="61px" height="61px" viewBox="0 0 61 61" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L61 0L61 61L0 61L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Play-Button-icon">
+    <path d="M0 0L61 0L61 61L0 61L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <path d="M54.7761 17.69C54.29 15.0069 51.9739 13.053 49.2861 12.443C45.2639 11.59 37.82 10.98 29.7661 10.98C21.717 10.98 14.1539 11.59 10.127 12.443C7.44391 13.053 5.12305 14.883 4.63696 17.69C4.1461 20.74 3.66 25.01 3.66 30.5C3.66 35.99 4.1461 40.26 4.7561 43.31C5.24696 45.993 7.56305 47.9469 10.2461 48.5569C14.5161 49.41 21.8361 50.02 29.89 50.02C37.9439 50.02 45.2639 49.41 49.5339 48.5569C52.217 47.9469 54.5331 46.1169 55.0239 43.31C55.51 40.26 56.12 35.8661 56.2439 30.5C55.9961 25.01 55.3861 20.74 54.7761 17.69L54.7761 17.69ZM23.18 39.04L23.18 21.96L38.0631 30.5L23.18 39.04Z" id="Shape" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>

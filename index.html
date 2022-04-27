@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Danelectro - Home</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Nanum+Brush+Script&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&display=swap" rel="stylesheet"> 
+	<style type="text/css">
+		html {font-family: 'Gowun Batang', serif;}
+		body {margin: 0; background-color: #FEF7DD; font-family: 'Gowun Batang', serif;}
+		nav {display: flex; justify-content: center; align-items: center; border-bottom: 5px solid black; font-family: 'Gowun Batang', serif; font-weight: bold;}
+		nav p a{display: inline-block; text-decoration: none; color: black; font-size: 20px; margin-right: 13px; border-color: red;  width: 170px; text-align: center; padding-top: 5px; padding-bottom: 5px;}
+		nav p a:hover {
+			color: #C43132;
+			font-size: 22px;
+			transition: 1s;
+		}
+		nav img {margin-right: 13px; margin-bottom: 10px; margin-top: 25px;}
+
+		button {font-family: 'Gowun Batang', serif; font-weight: bold;}
+
+		.hero {height: 675px; border-bottom: 5px solid black; display: flex; justify-content: center;}
+
+		.amp {height: 550px; background-color: #FEF7DD; color: #C43132; margin-left: 12.5%;
+		}
+		.amp div {padding-top: 20px; font-family: 'Gowun Batang'; display: inline-block;}
+		.amp h3 {font-size: 42px;}
+		.amp p {font-size: 21px; margin-top: -30px;}
+		.amp button {text-decoration: none; background-color: #C43132; border: none; font-size: 36px; color: white; width: 310px; height: 91px; line-height: 91px; border-radius: 30px;}
+		.amp img {float: right; margin-right: 12.5%; padding-top: 52px;}
+
+		.guitar {height: 550px; background-color: #C43132;}
+		.guitar div {text-align: right; margin-right: 12.5%; font-family: 'Gowun Batang', serif; color: #FEF7DD; padding-top: 20px;}
+		.guitar h3{font-size: 42px;}
+		.guitar p {font-size: 21px; margin-top: -30px;}
+		.guitar button {text-decoration: none; border: none; background-color: #FEF7DD; color: #C43132; width: 310px; height: 91px; line-height: 91px; font-size: 36px; border-radius: 30px; margin-top: 80px;}
+		.guitar img {display: inline-block; float: left; padding-top: 120px; margin-left: 12.5%;}
+
+		.sound {height: 550px; background-color: #FEF7DD;}
+		.sound div{margin-left: 12.5%; font-family: 'Gowun Batang', serif; color: #C43132; padding-top: 20px; display: inline-block;}
+		.sound h3 {font-size: 42px;}
+		.sound p {font-size: 21px; margin-top: -30px;}
+		.sound button{text-decoration: none; border: none; background-color: #C43132; color: white; width: 310px; height: 91px; line-height: 91px; font-size: 36px; border-radius: 30px; margin-top: 40px;}
+		.sound img {float: right; margin-right: 12.5%; padding-top: 110px;}
+
+		.legacy {height: 550px; background-color: #333333;}
+		.legacy div {text-align: right; margin-right: 12.5%; font-family: 'Gowun Batang', serif; padding-top: 20px;}
+		.legacy h3 {font-size: 42px; color: #C43132;}
+		.legacy p {font-size: 21px; color: #FEF7DD; margin-top: -30px;}
+		.legacy button {text-decoration: none; border: none; background-color: #C43132; color: white; width: 310px; height: 91px; line-height: 91px; font-size: 36px; border-radius: 30px; margin-top: 20px;}
+		.legacy img {display: inline-block; float: left; padding-top: 78px; margin-left: 12.5%; }
+
+		.product {height: 1000px; background-color: #FEF7DD;}
+		.product .text {color: black; font-family: 'Gowun Batang', serif; text-align: center; margin-top: 40px;}
+		.product .productBox {display: inline-block; margin-bottom: 36px;}
+		.product .box1 {display: flex; justify-content: center; }
+		.product .box2 {display: flex; justify-content: center; }
+		.product h2 {font-size: 64px; margin: 0;}
+		.product h5 {font-size: 24px; margin-top: 0px; font-weight: normal;}
+		.product .productImage {background-color: white; width: 640px; border-radius: 15px 15px 0 0;}
+		.product h6 {background-color: white; width: 640px; height: 55px; text-align: center; margin-top: 0; margin-bottom: 0; font-size: 24px; border-top: 2px solid #808080; line-height: 55px;}
+		.product img {padding-top: 20px; padding-bottom: 20px; padding-left: 60px;}
+		.product button {background-color: #C43132; width: 640px; height: 55px; text-align: center; margin-top: 0; margin-bottom: 0; font-size: 36px; font-family: text-decoration: none; border: none; color: white; border-radius: 0 0 15px 15px;}
+		.product button:hover {
+			background-color: black;
+			transition: 1s;
+		}
+
+		.footer {height: 255px; background-color: #C43132; color: white; font-family: 'Noto Sans KR', sans-serif;}
+		.footer .footerLeft {margin-left: 4.86%; padding-top: 10px; float: left;}
+		.footer .icons {margin-top: -30px; margin-bottom: -20px;}
+		.footer img {margin-right: 20px;}
+		.footer h5 {font-size: 24px;}
+		.footer h6 {font-size: 18px; font-weight: lighter;}
+		.footer a {text-decoration: none; color: white;}
+		.footer .footerRight {float: right; text-align: right; margin-right: 4.86%;}
+	</style>
+</head>
+<body>
+	<nav>
+		<p><a href="history2.html">기타</a></p>
+		<p><a href="history2.html">액세서리</a></p>
+		<p><a href="history2.html">페달</a></p>
+		<a href="index.html"><img src="logo.svg"></a>
+		<p><a href="history2.html">아티스트</a></p>
+		<p><a href="history2.html">역사</a></p>
+		<p><a href="history2.html">고객문의</a></p>
+	</nav>
+
+	<section class="hero">
+		<img src="main.png">
+	</section>
+
+	<section class="amp">
+		<div class="text">
+			<h3>음악 기술의<br>선구자</h3>
+			<p>1947년부터 Danelectro는 음악 기술의 개척자였습니다.<br>일렉트릭 기타가 대중화되기 시작하면서 Danelectro는 기타<br>앰프를 만들었습니다. 회사는 초기 일렉트릭 기타 연주자가<br>사운드를 더 잘 제어할 수 있도록 하는 트레몰로, 리버브 및<br>하이브리드 전원 시스템을 갖춘 최초의 기타<br>
+			앰프를 책임지고 있습니다.</p>
+			<button>우리의 역사</button>
+		</div>
+		<img src="amp.png">
+	</section>
+
+	<section class="guitar">
+		<img src="guitars.png">
+		<div class="text">
+			<h3>독특한 디자인과<br>스타일</h3>
+			<p>Danelectro 기타는 독특하고 빈티지한<br>1950년대에 나온 룩! 멋진 디자인과 다양한 색상 및 마감재로<br>제공되는 Danelectro 기타는 어디서도 볼 수 없는 스타일.</p>
+			<button>구매하기</button>
+		</div>
+	</section>
+
+	<section class="sound">
+		<div class="text">
+			<h3>빈티지하고<br>클래식한 사운드</h3>
+			<p>우리 기타는 빈티지한 음색으로 유명합니다. 그것은 립스틱<br>픽업뿐만 아니라 우리 악기에 독특한 사운드를 제공하면서<br>비용을 다소 저렴하게 유지하는 재료 덕분입니다.<br>오늘날까지도 많은 플레이어들이 우리의 소음에<br>대한 향수를 가지고 있습니다.</p>
+			<button>더 알아보기</button>
+		</div>
+		<img src="pickup.png">
+	</section>
+
+	<section class="legacy">
+		<img src="jimi.png">
+		<div class="text">
+			<h3>전설적인<br>기타리스트의 유산</h3>
+			<p>Danelectro는 출발점이 된 역사를 가지고 있습니다.<br>많은 잘 알려진 기타 연주자에게. 이름<br>Jimi Hendrix, Eric Clapton, Jimmy Page,<br>Dan Auerbach, Jack White 및 기타 많은 사람들이 언젠가는<br>Danelectro 기타를 사용했습니다.</p>
+			<button>연주자들</button>
+		</div>
+	</section>
+
+	<section class="product">
+		<div class="text">
+			<h2>이상하고 재미있는</h2>
+			<h5>다음은 우리가 알고 있는 다른 알려진 제품입니다.</h5>
+		</div>
+		<div class="box1">
+			<div class="productBox" style="margin-right: 20px;">
+				<div class="productImage"><img src="sitar.png"></div>
+				<h6>일렉트릭 시타르</h6>
+				<button>더 알아보기</button>
+			</div>
+			<div class="productBox">
+				<div class="productImage"><img src="longhorn.png"></div>
+				<h6>롱혼 베이스</h6>
+				<button>더 알아보기</button>
+			</div>
+		</div>
+		<div class="box2">
+			<div class="productBox" style="margin-right: 20px">
+				<div class="productImage"><img src="resonator.png"></div>
+				<h6>레조네이터 기타</h6>
+				<button>더 알아보기</button>
+			</div>
+			<div class="productBox">
+				<div class="productImage"><img src="12string.png"></div>
+				<h6>일렉트릭 12현</h6>
+				<button>더 알아보기</button>
+			</div>
+		</div>
+	</section>
+
+	<section class="footer">
+		<div class="footerLeft">
+			<h5>Follow</h5>
+			<div class="icons">
+				<img src="twitter.svg">
+				<img src="facebook.svg">
+				<img src="youtube.svg">
+				<img src="instagram.svg">
+			</div>
+			<h6>Copyright 2022 ㅋㅋㅋㅋㅋ</h6>
+		</div>
+		<div class="footerRight">
+			<h6><a href="history2.html">기타 | 악세사리 | 페달 | 아티스트 | 역사 | 고객문의</a>
+			<br><br>이용약관
+			<br><br>전화번호:<br>1-234-567-890</h6>
+		</div>
+	</section>
+</body>
+</html>
